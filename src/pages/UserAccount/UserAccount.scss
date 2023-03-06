@@ -1,0 +1,12 @@
+.useraccount__container{
+    display: grid;
+    grid-template-columns: 25% auto;
+    padding: 2rem;
+
+    .chat-div{
+        position: fixed;
+        bottom: 0;
+        right: 80px;
+        z-index: 5;
+    }
+}

@@ -1,0 +1,28 @@
+.message_box {
+  position: fixed;
+  bottom: 0;
+  right: 450px;
+  width: 300px;
+  .message_head {
+    border-radius: 10px 10px 0 0;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to top, #0065ad 0%, #0054a2 50%);
+    color: white;
+    .userdetail,
+    .icons {
+      display: flex;
+      flex-direction: row;
+      p{
+        margin-top: 10px;
+      }
+      img {
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+      }
+    }
+  }
+}

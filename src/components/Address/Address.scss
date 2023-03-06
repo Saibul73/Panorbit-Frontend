@@ -1,0 +1,56 @@
+.adressContainer {
+  padding-left: 50px;
+
+  h2 {
+    color: gray;
+    font-weight: normal;
+    font-size: 21px;
+  }
+  .address_details {
+    width: 100%;
+
+    div {
+      display: flex;
+      justify-content: center;
+
+      p {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 12px 0;
+        color: rgb(78, 78, 78);
+        font-family: Arial, Helvetica, sans-serif;
+        &:first-child {
+          text-align: end;
+          margin-right: 5px;
+          width: 50%;
+          font-weight: normal;
+          color: rgb(157, 157, 157);
+        }
+      }
+    }
+  }
+  .googlemap {
+    width: 100%;
+    margin-top: 25px;
+
+    iframe {
+      border-radius: 15px;
+      border: none;
+      width: 98%;
+      height: 350px;
+    }
+    .bottom{
+        display: flex;
+        justify-content: flex-end;
+        p{
+            margin: 0 10px;
+            font-size: 13px;
+            span{
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+    }
+  }
+}

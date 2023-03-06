@@ -1,0 +1,29 @@
+.RightSide__container {
+  .RightSide__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(122, 120, 120);
+    
+    .profile__setting-badge{
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    img{
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+    }
+  }
+
+  .main-div{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    .details{
+        border-right: solid 1px gray;
+    }
+  }
+}
